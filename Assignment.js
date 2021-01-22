@@ -13,6 +13,7 @@ const resultMeter = kilometerToMeter(-10);
 console.log(resultMeter); // print value in console log
 
 // budget calculator function for calculate watch, phone and laptop cost
+
 function budgetCalculator(watchs, phones, laptops) {
     //chech watchs, phones and laptop value nagative or not if navative than return with error message. 
     if (watchs < 0 || phones < 0 || laptops < 0) {
@@ -36,6 +37,8 @@ function budgetCalculator(watchs, phones, laptops) {
 //call budgetCalculator function and store return value 
 var resultTotatBudget = budgetCalculator(3, 4, 5);
 console.log(resultTotatBudget);
+
+// hotelcost
 
 function hotelCost(days) {
     // check days value is nagative or not 
